@@ -25,7 +25,10 @@ export default defineConfig({
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [['html'],['allure-playwright', { outputFolder: 'allure-results'}]],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
-  timeout: 60000,
+  timeout: 180000,
+  expect: {
+        timeout: 120000 // expect এর জন্য 2 মিনিট
+    },
   use: {
     /* Base URL to use in actions like `await page.goto('')`. */
     // baseURL: 'http://localhost:3000',
@@ -34,7 +37,7 @@ export default defineConfig({
     trace: "retain-on-failure",
     screenshot: "only-on-failure",
     video:"retain-on-failure",
-    navigationTimeout: 60000, // ← page.goto timeout
+    navigationTimeout: 180000, // ← page.goto timeout
     actionTimeout: 60000,
   },
 

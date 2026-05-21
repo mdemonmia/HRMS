@@ -1,0 +1,7 @@
+Step 1: firstName fill
+Step 2: lastName fill
+Step 3: role select
+Step 4: utype select
+Step 5: orgdiv select
+Step 6: dept select
+Step 7: position select

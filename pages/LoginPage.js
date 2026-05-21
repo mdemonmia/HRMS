@@ -5,6 +5,9 @@ export class LoginPage{
         this.Password = page.locator('#userPassword');
         this.Signin = page.locator('.capitalize');
         this.errorMsg = page.locator('.error.text-danger.bold');
+        this.userlink = page.locator("//button[@id='page-header-user-dropdown']");
+        this.logoutlink = page.locator("//div[@class='dropdown-menu dropdown-menu-end header-dropdown-menu show']//button[@class='dropdown-item text-danger'][normalize-space()='Logout']");
+        this.menuLink = page.locator("//i[@class='fa fa-bars']");
     }
 
     async goto(url){
@@ -19,5 +22,16 @@ export class LoginPage{
     async getErrorMsg(){
         await this.errorMsg.waitFor({state:'visible'});
         return (await this.errorMsg.textContent()).trim();
+    }
+
+    async logout(){
+        await this.userlink.waitFor({state:'visible'});
+        await this.userlink.click();
+        await this.logoutlink.click();
+    }
+
+    async clickMenuLink(){
+        await this.menuLink.waitFor({state:'visible'});
+        await this.menuLink.click();
     }
 }

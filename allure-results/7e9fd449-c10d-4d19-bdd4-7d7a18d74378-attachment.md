@@ -1,0 +1,59 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: user.spec.js >> test user management page >> check first name with invalid data
+- Location: tests\user.spec.js:28:9
+
+# Error details
+
+```
+TypeError: login.menuLink is not a function
+```
+
+# Test source
+
+```ts
+  1  | import { test,expect } from '@playwright/test';
+  2  | import { LoginPage } from '../pages/LoginPage';
+  3  | import { UserMgtPage } from '../pages/User';
+  4  | import { testData } from '../fixtures/testData';
+  5  | 
+  6  | const data = new testData();
+  7  | 
+  8  | test.describe('test user management page',()=>{
+  9  |     test.beforeEach(async({page})=>{
+  10 |         const login = new LoginPage(page);
+  11 |         await login.goto(data.url);
+  12 |         await login.Login(
+  13 |             data.user_login.valid_login.username,
+  14 |             data.user_login.valid_login.password
+  15 |         )
+> 16 |         await login.menuLink();
+     |                     ^ TypeError: login.menuLink is not a function
+  17 | 
+  18 |         const user = new UserMgtPage(page);
+  19 |         await user.getUserMgtlink();
+  20 |         await user.getUserlink();
+  21 |         
+  22 |     })
+  23 | 
+  24 |     test.afterEach(async({page})=>{
+  25 |         await page.close();
+  26 |     })
+  27 | 
+  28 |     test('check first name with invalid data',async({page})=>{
+  29 |         const user = new UserMgtPage(page);
+  30 |         await user.getAddUserBtn();
+  31 |         await user.getUserMgt(
+  32 |             data.user_form.invalid_fname_form
+  33 |         )
+  34 |         await user.getSaveBtnandExceptdialog();
+  35 |         await expect(user.firstName).toHaveCSS('border-top-color','rgb(220, 53, 69)');
+  36 |     })
+  37 | })
+```
