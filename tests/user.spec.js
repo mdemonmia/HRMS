@@ -253,7 +253,7 @@ test.describe('test user management page',()=>{
         );
     })
 
-    test.only('check role name filter working or not',async({page})=>{
+    test('check role name filter working or not',async({page})=>{
         const user = new UserMgtPage(page);
         await user.getrolesearch(
             data.role_filter.role_search_filter.role
