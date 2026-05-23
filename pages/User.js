@@ -31,7 +31,8 @@ export class UserMgtPage{
         this.Update = page.locator("//button[@type='submit']");
         this.username = page.locator('#searchAppUserInformation');
         this.deptname = page.locator('#searchByDeptPosition');
-        this.rolename = page.locator('#searchByRoleName')
+        this.rolename = page.locator('#searchByRoleName');
+        this.Vendor = page.locator("//a[normalize-space()='Vendor User']");
     }
 
     async getUserMgtlink(){
@@ -40,6 +41,10 @@ export class UserMgtPage{
 
     async getUserlink(){
         await this.userlink.click();
+    }
+
+    async getVendorlink(){
+        await this.Vendor.click();
     }
 
     async getAddUserBtn(){

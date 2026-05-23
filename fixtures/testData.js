@@ -270,5 +270,243 @@ export class testData{
         }
     }
 
+    vendor_user={
+        valid_form:{
+            fname : 'Hasan',
+            lname : 'Imam',
+            vendor : 'Demo Vendor',
+            role : 'Admin',
+            email : 'hasan@gmail.com',
+            phone : '01785749685',
+            userid : 'V102',
+            password : 'hasan123456',
+            status : 'Active'   
+        },
+
+        invalid_fname_form:{
+            fname : '',
+            lname : 'Imam',
+            vendor : 'Demo Vendor',
+            role : 'Admin',
+            email : 'hasan@gmail.com',
+            phone : '01785749685',
+            userid : 'V102',
+            password : 'hasan123456',
+            status : 'Active'   
+        },
+
+        invalid_lname_form:{
+            fname : 'Hasan',
+            lname : '',
+            vendor : 'Demo Vendor',
+            role : 'Admin',
+            email : 'hasan@gmail.com',
+            phone : '01785749685',
+            userid : 'V102',
+            password : 'hasan123456',
+            status : 'Active'   
+        },
+
+        invalid_vendor_form:{
+            fname : 'Hasan',
+            lname : 'Imam',
+            vendor : '',
+            role : 'Admin',
+            email : 'hasan@gmail.com',
+            phone : '01785749685',
+            userid : 'V102',
+            password : 'hasan123456',
+            status : 'Active'   
+        },
+
+        invalid_role_form:{
+            fname : 'Hasan',
+            lname : 'Imam',
+            vendor : 'Demo Vendor',
+            role : '',
+            email : 'hasan@gmail.com',
+            phone : '01785749685',
+            userid : 'V102',
+            password : 'hasan123456',
+            status : 'Active'   
+        },
+        invalid_email_form:{
+            fname : 'Hasan',
+            lname : 'Imam',
+            vendor : 'Demo Vendor',
+            role : 'Admin',
+            email : '',
+            phone : '01785749685',
+            userid : 'V102',
+            password : 'hasan123456',
+            status : 'Active'   
+        },
+        invalid_phone_form:{
+            fname : 'Hasan',
+            lname : 'Imam',
+            vendor : 'Demo Vendor',
+            role : 'Admin',
+            email : 'hasan@gmail.com',
+            phone : '',
+            userid : 'V102',
+            password : 'hasan123456',
+            status : 'Active'   
+        },
+
+        invalid_userid_form:{
+            fname : 'Hasan',
+            lname : 'Imam',
+            vendor : 'Demo Vendor',
+            role : 'Admin',
+            email : 'hasan@gmail.com',
+            phone : '01785749685',
+            userid : '',
+            password : 'hasan123456',
+            status : 'Active'   
+        },
+
+        invalid_password_form:{
+            fname : 'Hasan',
+            lname : 'Imam',
+            vendor : 'Demo Vendor',
+            role : 'Admin',
+            email : 'hasan@gmail.com',
+            phone : '01785749685',
+            userid : 'V102',
+            password : '',
+            status : 'Active'   
+        },
+        invalid_status_form:{
+            fname : 'Hasan',
+            lname : 'Imam',
+            vendor : 'Demo Vendor',
+            role : 'Admin',
+            email : 'hasan@gmail.com',
+            phone : '01785749685',
+            userid : 'V102',
+            password : 'hasan123456',
+            status : ''   
+        }
+    }
+
+    update_vendor_user={
+        valid_vUser:{
+            fname : 'Hasan1',
+            lname : 'Imam',
+            vendor : 'Demo Vendor',
+            role : 'Admin',
+            email : 'hasan@gmail.com',
+            phone : '01785749685',
+            userid : 'V1023',
+            password : 'hasan123456',
+            status : 'Active'
+        },
+        invalid_fname_vUser:{
+            fname : '',
+            lname : 'Imam',
+            vendor : 'Demo Vendor',
+            role : 'Admin',
+            email : 'hasan@gmail.com',
+            phone : '01785749685',
+            password : 'hasan123456',
+            status : 'Active'
+        },
+        invalid_lname_vUser:{
+            fname : 'Hasan1',
+            lname : '',
+            vendor : 'Demo Vendor',
+            role : 'Admin',
+            email : 'hasan@gmail.com',
+            phone : '01785749685',
+            password : 'hasan123456',
+            status : 'Active'
+        },
+        invalid_vendor_vUser:{
+            fname : 'Hasan1',
+            lname : 'Imam',
+            vendor : '',
+            role : 'Admin',
+            email : 'hasan@gmail.com',
+            phone : '01785749685',
+            password : 'hasan123456',
+            status : 'Active'
+        },
+        invalid_role_vUser:{
+            fname : 'Hasan1',
+            lname : 'Imam',
+            vendor : 'Demo Vendor',
+            role : '',
+            email : 'hasan@gmail.com',
+            phone : '01785749685',
+            password : 'hasan123456',
+            status : 'Active'
+        },
+        invalid_email_vUser:{
+            fname : 'Hasan1',
+            lname : 'Imam',
+            vendor : 'Demo Vendor',
+            role : 'Admin',
+            email : '',
+            phone : '01785749685',
+            password : 'hasan123456',
+            status : 'Active'
+        },
+        invalid_phone_vUser:{
+            fname : 'Hasan1',
+            lname : 'Imam',
+            vendor : 'Demo Vendor',
+            role : 'Admin',
+            email : 'hasan@gmail.com',
+            phone : '',
+            password : 'hasan123456',
+            status : 'Active'
+        },
+        
+        invalid_password_vUser:{
+            fname : 'Hasan1',
+            lname : 'Imam',
+            vendor : 'Demo Vendor',
+            role : 'Admin',
+            email : 'hasan@gmail.com',
+            phone : '01785749685',
+            password : '',
+            status : 'Active'
+        },
+        invalid_status_vUser:{
+            fname : 'Hasan1',
+            lname : 'Imam',
+            vendor : 'Demo Vendor',
+            role : 'Admin',
+            email : 'hasan@gmail.com',
+            phone : '01785749685',
+            password : 'hasan123456',
+            status : ''
+        }
+    }
+
+    view_vendor_row={
+        view_row_name:{
+            name:'Hasan Imam'
+        }     
+    }
+
+    view_vendor_row1={
+        view_row_name1:{
+            name:'Hasan1 Imam'
+        }     
+    }
+
+    name_filter={
+        uname_filter_search:{
+            name:'Hasan1 Imam'
+        },
+        sysname_filter_search:{
+            sysname:'V102'
+        },
+        phone_filter_search:{
+            phone:'01785749685'
+        }
+    }
+
    
 }
