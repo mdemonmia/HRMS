@@ -4,7 +4,7 @@ export class testData{
     user_login = {
         valid_login:{
             username : 'hrm@system.user',
-            password : 'hr_payroll_2026'
+            password : 'hr_payroll_2026_'
         },
 
         invalid_login:{
@@ -506,6 +506,26 @@ export class testData{
         phone_filter_search:{
             phone:'01785749685'
         }
+    }
+
+    UserLoginHis={
+        UserTypeName:{
+            userType: 'Super Admin'
+        },
+        UserGroupName:{
+            userGroup: 'Admin'
+        },
+        OrgDivPosName:{
+            orgDivPos: 'Arena Phone'
+        },
+        UserNamePhoneName:{
+            userNamePhone: '01913366446'
+        },
+        dateFilter:{
+            startDate: '01-Jun-2026',
+            endDate: '06-Jun-2026'
+        },
+        
     }
 
    
