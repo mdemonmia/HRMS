@@ -1,0 +1,1 @@
+Blank vendor key contact position name data is passed successfully.

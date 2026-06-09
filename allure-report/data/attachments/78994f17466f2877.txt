@@ -1,0 +1,3 @@
+Step 1: firstName fill
+Step 2: lastName fill
+Step 3: role select

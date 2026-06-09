@@ -524,8 +524,285 @@ export class testData{
         dateFilter:{
             startDate: '01-Jun-2026',
             endDate: '06-Jun-2026'
-        },
+        }
         
+    }
+
+    vendorinfodata={
+        blankofclvendor:{
+            ofcl : '',
+            vendorShName : 'test',
+            vndrcode : '1234',
+            div : 'Dhaka',
+            dist : 'gazipur',
+            addr : 'test',
+            contact : 'samiul',
+            contactPos : 'pm',
+            orgType : 'Private Limited Company',
+            fileupload : ''
+        },
+        //H:\\automation_doc\\2nd class.pptx.pdf
+        blankvndrshname:{
+            ofcl : 'ArenaBD',
+            vendorShName : '',
+            vndrcode : '1234',
+            div : 'Dhaka',
+            dist : 'gazipur',
+            addr : 'test',
+            contact : 'samiul',
+            contactPos : 'pm',
+            orgType : 'Private Limited Company',
+            fileupload : ''
+        },
+
+        blankvndrcode:{
+            ofcl : 'ArenaBD',
+            vendorShName : 'test',
+            vndrcode : '0',
+            div : 'Dhaka',
+            dist : 'gazipur',
+            addr : 'test',
+            contact : 'samiul',
+            contactPos : 'pm',
+            orgType : 'Private Limited Company',
+            fileupload : ''
+        },
+
+        blankvndrdiv:{
+            ofcl : 'ArenaBD',
+            vendorShName : 'test',
+            vndrcode : '1234',
+            div : '',
+            dist : 'gazipur',
+            addr : 'test',
+            contact : 'samiul',
+            contactPos : 'pm',
+            orgType : 'Private Limited Company',
+            fileupload : ''
+        },
+
+        blankvndrdist:{
+            ofcl : 'ArenaBD',
+            vendorShName : 'test',
+            vndrcode : '1234',
+            div : 'Dhaka',
+            dist : '',
+            addr : 'test',
+            contact : 'samiul',
+            contactPos : 'pm',
+            orgType : 'Private Limited Company',
+            fileupload : ''
+        },
+
+        blankvndraddr:{
+            ofcl : 'ArenaBD',
+            vendorShName : 'test',
+            vndrcode : '1234',
+            div : 'Dhaka',
+            dist : 'gazipur',
+            addr : '',
+            contact : 'samiul',
+            contactPos : 'pm',
+            orgType : 'Private Limited Company',
+            fileupload : ''
+        },
+
+        blankvndrcontact:{
+            ofcl : 'ArenaBD',
+            vendorShName : 'test',
+            vndrcode : '1234',
+            div : 'Dhaka',
+            dist : 'gazipur',
+            addr : 'test',
+            contact : '',
+            contactPos : 'pm',
+            orgType : 'Private Limited Company',
+            fileupload : ''
+        },
+
+        blankvndrcontactpos:{
+            ofcl : 'ArenaBD',
+            vendorShName : 'test',
+            vndrcode : '1234',
+            div : 'Dhaka',
+            dist : 'gazipur',
+            addr : 'test',
+            contact : 'samiul',
+            contactPos : '',
+            orgType : 'Private Limited Company',
+            fileupload : ''
+        },
+
+        blankvndrorgtype:{
+            ofcl : 'ArenaBD',
+            vendorShName : 'test',
+            vndrcode : '1234',
+            div : 'Dhaka',
+            dist : 'gazipur',
+            addr : 'test',
+            contact : 'samiul',
+            contactPos : 'pm',
+            orgType : '',
+            fileupload : ''
+        },
+
+        validvndrinfo:{
+            ofcl : 'ArenaBD',
+            vendorShName : 'test',
+            vndrcode : '1234',
+            div : 'Dhaka',
+            dist : 'gazipur',
+            addr : 'test',
+            contact : 'samiul',
+            contactPos : 'pm',
+            orgType : 'Private Limited Company',
+            fileupload : ''
+        }
+
+    }
+
+    update_vndrinfo_row_name={
+        valid_row_name:{
+            name:'ArenaBD'
+        }
+    }
+
+    updatevendordata={
+        blankvndrofclinfo:{
+            ofcl : '',
+            vendorShName : 'test',
+            vndrcode : '1234',
+            div : 'Dhaka',
+            dist : 'gazipur',
+            addr : 'test',
+            contact : 'samiul',
+            contactPos : 'pm',
+            orgType : 'Private Limited Company',
+            fileupload : ''
+        },
+
+        blankvndrshname:{
+            ofcl : 'ArenaBD',
+            vendorShName : '',
+            vndrcode : '1234',
+            div : 'Dhaka',
+            dist : 'gazipur',
+            addr : 'test',
+            contact : 'samiul',
+            contactPos : 'pm',
+            orgType : 'Private Limited Company',
+            fileupload : ''
+        },
+
+        blankvndrcodename:{
+            ofcl : 'ArenaBD',
+            vendorShName : 'TEST',
+            vndrcode : '0',
+            div : 'Dhaka',
+            dist : 'gazipur',
+            addr : 'test',
+            contact : 'samiul',
+            contactPos : 'pm',
+            orgType : 'Private Limited Company',
+            fileupload : ''
+        },
+
+        blankvndrdivname:{
+            ofcl : 'ArenaBD',
+            vendorShName : 'TEST',
+            vndrcode : '1234',
+            div : '',
+            dist : 'gazipur',
+            addr : 'test',
+            contact : 'samiul',
+            contactPos : 'pm',
+            orgType : 'Private Limited Company',
+            fileupload : ''
+        },
+
+        blankvndrdistname:{
+            ofcl : 'ArenaBD',
+            vendorShName : 'TEST',
+            vndrcode : '1234',
+            div : 'Dhaka',
+            dist : '',
+            addr : 'test',
+            contact : 'samiul',
+            contactPos : 'pm',
+            orgType : 'Private Limited Company',
+            fileupload : ''
+        },
+
+        blankvndraddrname:{
+            ofcl : 'ArenaBD',
+            vendorShName : 'TEST',
+            vndrcode : '1234',
+            div : 'Dhaka',
+            dist : 'gazipur',
+            addr : '',
+            contact : 'samiul',
+            contactPos : 'pm',
+            orgType : 'Private Limited Company',
+            fileupload : ''
+        },
+
+        blankvndrcontactname:{
+            ofcl : 'ArenaBD',
+            vendorShName : 'TEST',
+            vndrcode : '1234',
+            div : 'Dhaka',
+            dist : 'gazipur',
+            addr : 'test',
+            contact : '',
+            contactPos : 'pm',
+            orgType : 'Private Limited Company',
+            fileupload : ''
+        },
+
+        blankvndrcontactposname:{
+            ofcl : 'ArenaBD',
+            vendorShName : 'TEST',
+            vndrcode : '1234',
+            div : 'Dhaka',
+            dist : 'gazipur',
+            addr : 'test',
+            contact : 'samiul',
+            contactPos : '',
+            orgType : 'Private Limited Company',
+            fileupload : ''
+        },
+
+        blankvndrorgtypename:{
+            ofcl : 'ArenaBD',
+            vendorShName : 'TEST',
+            vndrcode : '1234',
+            div : 'Dhaka',
+            dist : 'gazipur',
+            addr : 'test',
+            contact : 'samiul',
+            contactPos : 'pm',
+            orgType : 'Public Limited Company',
+            fileupload : ''
+        },
+
+        validallvndrinfo:{
+            ofcl : 'ArenaBD',
+            vendorShName : 'TEST',
+            vndrcode : '1234',
+            div : 'Dhaka',
+            dist : 'gazipur',
+            addr : 'test',
+            contact : 'samiul',
+            contactPos : 'pm',
+            orgType : 'Private Limited Company',
+            fileupload : ''
+        }
+    }
+
+    delete_vndrinfo_row_name={
+        delete_row_name:{
+            dltname:'ArenaBD'
+        }
     }
 
    

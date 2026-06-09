@@ -67,7 +67,7 @@ test.describe('test user login history',()=>{
         await expect(await userlogin.totalCount()).toHaveText(tcount);
     })
 
-    test.only('check user start date and end date filter with valid data @functional @regression',async({page})=>{
+    test('check user start date and end date filter with valid data @functional @regression',async({page})=>{
         const userlogin = new UserLoginHistoryPage(page);
         await userlogin.getDatefilter(
             data.UserLoginHis.dateFilter

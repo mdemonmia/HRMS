@@ -33,6 +33,7 @@ export class UserMgtPage{
         this.deptname = page.locator('#searchByDeptPosition');
         this.rolename = page.locator('#searchByRoleName');
         this.Vendor = page.locator("//a[normalize-space()='Vendor User']");
+        
     }
 
     async getUserMgtlink(){

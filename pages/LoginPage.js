@@ -8,6 +8,7 @@ export class LoginPage{
         this.userlink = page.locator("//button[@id='page-header-user-dropdown']");
         this.logoutlink = page.locator("//div[@class='dropdown-menu dropdown-menu-end header-dropdown-menu show']//button[@class='dropdown-item text-danger'][normalize-space()='Logout']");
         this.menuLink = page.locator("//i[@class='fa fa-bars']");
+        this.VendormgtLink = page.locator("//span[normalize-space()='Vendor Management']");
     }
 
     async goto(url){
@@ -34,4 +35,9 @@ export class LoginPage{
         await this.menuLink.waitFor({state:'visible'});
         await this.menuLink.click();
     }
+
+    async getvendorMgtlink(){
+        await this.VendormgtLink.click();
+    }
+
 }

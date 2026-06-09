@@ -1,0 +1,15 @@
+Step 1: firstName fill
+Step 2: lastName fill
+Step 3: role select
+Step 4: utype select
+Step 5: orgdiv select
+Step 6: dept select
+Step 7: position select
+Step 8: email fill
+Step 9: phone fill
+Step 10: userid fill
+Step 11: password fill
+Step 12: status select
+Step 13: lmdata click
+Step 14: scroll to save
+=== getUserMgt completed ===

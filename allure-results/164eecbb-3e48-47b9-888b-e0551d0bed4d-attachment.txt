@@ -1,0 +1,1 @@
+vendor data with blank district name is passed successfully.

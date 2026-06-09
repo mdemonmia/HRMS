@@ -1,0 +1,1 @@
+Blank vendor division name data is passed successfully.

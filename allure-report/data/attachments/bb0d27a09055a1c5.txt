@@ -1,0 +1,1 @@
+vendor data with blank short name is passed successfully.

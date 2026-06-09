@@ -1,0 +1,1 @@
+vendor data with blank organization name is passed successfully.

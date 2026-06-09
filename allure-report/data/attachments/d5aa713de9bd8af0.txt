@@ -1,0 +1,1 @@
+vendor data with blank official name is passed successfully.

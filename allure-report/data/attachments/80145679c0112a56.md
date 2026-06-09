@@ -1,0 +1,136 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: user.spec.js >> test user management page >> checked dept with invalid data
+- Location: tests\user.spec.js:87:10
+
+# Error details
+
+```
+Error: expect(page).toHaveURL(expected) failed
+
+Expected: "http://202.126.124.194:8264/users/list"
+Received: "http://202.126.124.194:8264/users/add"
+Timeout:  120000ms
+
+Call log:
+  - Expect "toHaveURL" with timeout 120000ms
+    236 × unexpected value "http://202.126.124.194:8264/users/add"
+
+```
+
+```yaml
+- dialog:
+  - img
+  - heading "Are you sure you want to save this?" [level=4]
+  - button "No"
+  - button "Yes"
+```
+
+# Test source
+
+```ts
+  1  | import { test,expect } from '@playwright/test';
+  2  | import { LoginPage } from '../pages/LoginPage';
+  3  | import { UserMgtPage } from '../pages/User';
+  4  | import { testData } from '../fixtures/testData';
+  5  | 
+  6  | const data = new testData();
+  7  | 
+  8  | test.describe('test user management page',()=>{
+  9  |     test.beforeEach(async({page})=>{
+  10 |         const login = new LoginPage(page);
+  11 |         await login.goto(data.url);
+  12 |         await login.Login(
+  13 |             data.user_login.valid_login.username,
+  14 |             data.user_login.valid_login.password
+  15 |         )
+  16 |         await login.clickMenuLink();
+  17 | 
+  18 |         const user = new UserMgtPage(page);
+  19 |         await user.getUserMgtlink();
+  20 |         await user.getUserlink();
+  21 |         
+  22 |     })
+  23 | 
+  24 |     test.afterEach(async({page})=>{
+  25 |         await page.close();
+  26 |     })
+  27 | 
+  28 |     test('check first name with invalid data',async({page})=>{
+  29 |         const user = new UserMgtPage(page);
+  30 |         await user.getAddUserBtn();
+  31 |         await user.getUserMgt(
+  32 |             data.user_form.invalid_fname_form
+  33 |         );
+  34 |         await user.getSaveBtnandExceptdialog();
+  35 |         await expect(user.firstName).toHaveClass(/ng-pristine/);
+  36 |     })
+  37 | 
+  38 |     //ei test e prblm ase
+  39 |     // test.only('check last name with invalid data',async({page})=>{
+  40 |     //     const user = new UserMgtPage(page);
+  41 |     //     await user.getAddUserBtn();
+  42 |     //     await user.getUserMgt(
+  43 |     //         data.user_form.invalid_lname_form
+  44 |     //     );
+  45 | 
+  46 |     //     page.on('dialog', async (dialog) => {
+  47 |     //     console.log('Dialog:', dialog.message());
+  48 |     //     await dialog.accept();
+  49 |     //    });
+  50 | 
+  51 |     // await page.pause();
+  52 |     //     // await user.getSaveBtnandConfirm();
+  53 |     //     // await expect(page).toHaveURL('http://202.126.124.194:8264/users/list');
+  54 |     // });
+  55 |     test('check the role with invalid data',async({page})=>{
+  56 |         const user = new UserMgtPage(page);
+  57 |         await user.getAddUserBtn();
+  58 |         await user.getUserMgt(
+  59 |             data.user_form.invalid_role_form
+  60 |         );
+  61 |         await user.getSaveBtnandExceptdialog();
+  62 |         const checkRole = user.urole.locator('input')
+  63 |         await expect(checkRole).toHaveCount(8);
+  64 |     })
+  65 | 
+  66 |     test('check the usertype with invalid data',async({page})=>{
+  67 |         const user = new UserMgtPage(page);
+  68 |         await user.getAddUserBtn();
+  69 |         await user.getUserMgt(
+  70 |             data.user_form.invalid_utype_form
+  71 |         );
+  72 |         await user.getSaveBtnandExceptdialog();
+  73 |         await expect(user.uType).toHaveClass(/ng-pristine/);
+  74 |     })
+  75 |     
+  76 | 
+  77 |     test('checked org division with invalid data',async({page})=>{
+  78 |         const user = new UserMgtPage(page);
+  79 |         await user.getAddUserBtn();
+  80 |         await user.getUserMgt(
+  81 |             data.user_form.invalid_orgdiv_form
+  82 |         );
+  83 |         await user.getSaveBtnandExceptdialog();
+  84 |         await expect(user.orgDiv).toHaveClass(/ng-pristine/);   
+  85 |     })
+  86 | 
+  87 |     test.only('checked dept with invalid data',async({page})=>{
+  88 |         const user = new UserMgtPage(page);
+  89 |         await user.getAddUserBtn();
+  90 |         await user.getUserMgt(
+  91 |             data.user_form.invalid_dept_form
+  92 |         );
+  93 |         await user.getSaveBtnandConfirm();
+> 94 |         await expect(page).toHaveURL('http://202.126.124.194:8264/users/list');  
+     |                            ^ Error: expect(page).toHaveURL(expected) failed
+  95 |     })
+  96 |     
+  97 | })
+```
