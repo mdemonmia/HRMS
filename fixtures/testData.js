@@ -805,5 +805,157 @@ export class testData{
         }
     }
 
+    vndragrmntForm={
+        blank_svndr_name:{
+            svndr:'',
+            docname:'test',
+            filename:'H:\\automation_doc\\2nd class.pptx.pdf',
+            sdate:'05-Jun-2026',
+            duration:'5'
+        },
+
+        blank_doc_name:{
+            svndr:'ArenaBD',
+            docname:'',
+            filename:'H:\\automation_doc\\2nd class.pptx.pdf',
+            sdate:'05-Jun-2026',
+            duration:'5'
+        },
+
+        blank_file_name:{
+            svndr:'ArenaBD',
+            docname:'test',
+            filename:'',
+            sdate:'05-Jun-2026',
+            duration:'5'
+        },
+
+        blank_sdate_name:{
+            svndr:'ArenaBD',
+            docname:'test',
+            filename:'H:\\automation_doc\\2nd class.pptx.pdf',
+            sdate:'',
+            duration:'5'
+        },
+
+        blank_duration_name:{
+            svndr:'ArenaBD',
+            docname:'test',
+            filename:'H:\\automation_doc\\2nd class.pptx.pdf',
+            sdate:'05-Jun-2026',
+            duration:''
+        },
+
+        valid_all_field_name:{
+            svndr:'ArenaBD',
+            docname:'test',
+            filename:'H:\\automation_doc\\2nd class.pptx.pdf',
+            sdate:'05-Jun-2026',
+            duration:'5'
+        }
+    }
+
+    viewvndragrmentForm={
+        viewvndragrmntBtn:{
+            vname:'ArenaBD'
+        }
+    }
+
+    EditvndragrmentForm={
+        vndragrmntEditBtn:{
+            ename:'ArenaBD'
+        }
+    }
+
+    DeletevndragrmentForm={
+        vndragrmntDltBtn:{
+            dname:'exctest'
+        }
+    }
+
+    udatevndragrmntForm={
+        changed_svndr_name:{
+            svndr:'exctest',
+            docname:'test',
+            filename:'',
+            sdate:'05-Jun-2026',
+            duration:'5'
+        },
+        //H:\\automation_doc\\2nd class.pptx.pdf
+
+        blank_doc_name:{
+            svndr:'exctest',
+            docname:'',
+            filename:'',
+            sdate:'05-Jun-2026',
+            duration:'5'
+        },
+
+        blank_file_name:{
+            svndr:'ArenaBD',
+            docname:'test',
+            filename:'',
+            sdate:'05-Jun-2026',
+            duration:'5'
+        },
+
+        blank_sdate_name:{
+            svndr:'ArenaBD',
+            docname:'test',
+            filename:'',
+            sdate:'',
+            duration:'5'
+        },
+
+        blank_duration_name:{
+            svndr:'ArenaBD',
+            docname:'test',
+            filename:'H:\\automation_doc\\2nd class.pptx.pdf',
+            sdate:'05-Jun-2026',
+            duration:''
+        },
+
+        valid_all_field_name:{
+            svndr:'exctest',
+            docname:'test',
+            filename:'',
+            sdate:'05-Jun-2026',
+            duration:'6'
+        }
+        //H:\\automation_doc\\2nd class.pptx.pdf
+    }
+
+
+    apiResponse = {
+    // Vendor save success
+        saveSuccess: {
+            status: 200,
+            body: { message: 'Data is saved successfully.' }
+        },
+
+        // Vendor save duplicate
+        saveDuplicate: {
+            status: 409,
+            body: { message: 'Duplicate name, please check entry name.' }
+        },
+
+        // Vendor update success
+        updateSuccess: {
+            status: 200,
+            body: { message: 'Data is updated successfully.' }
+        },
+
+        // Vendor delete success
+        deleteSuccess: {
+            status: 200,
+            body: { message: 'Data is deleted successfully.' }
+        },
+
+        // Server error
+        serverError: {
+            status: 500,
+            body: { message: 'Could not save changes. Please configure your entity type accordingly.' }
+        }
+    }
    
 }
