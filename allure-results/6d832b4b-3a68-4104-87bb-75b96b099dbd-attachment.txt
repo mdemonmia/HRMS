@@ -1,0 +1,1 @@
+click view button and redirected to job description list page.

@@ -1,0 +1,1 @@
+click submitbutton and redirected to job description list page.

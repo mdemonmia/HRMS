@@ -925,6 +925,328 @@ export class testData{
         //H:\\automation_doc\\2nd class.pptx.pdf
     }
 
+    jobdescdata={
+        blankjobdesc:{
+            orgdiv:'',
+            dept:'',
+            position:'',
+            jdescript:'',
+            response:'',
+            exp:'',
+            qualif:'',
+            skill:''
+        },
+
+        blankorgdiv:{
+            orgdiv:'',
+            dept:'',
+            position:'',
+            jdescript:'Support Executive',
+            response:`
+                Core responsibilities for the role include:
+                - Customer Support: Act as the first point of contact for users, 
+                responding to queries via phone, email, or live chat.
+                - Troubleshooting & Diagnosis: Analyze software issues, determine the root cause, 
+                and guide customers through step-by-step solutions.
+                - Documentation: Log all reported issues, track their progress, 
+                and record solutions in a ticketing or CRM system.
+                -Client Training: Conduct training sessions to help users understand software features and functionality.
+                -Team Collaboration: Escalate unresolved, complex bugs to the core development or QA teams.
+                - Feedback Loop: Gather user feedback to help product managers and developers identify recurring issues.`,
+            exp:`
+                - Experience: 0 to 3+ years in software customer success, technical support, or quality assurance. `,
+                
+            qualif:`
+                - Education: Typically requires a degree in Computer Science, Information Technology, BCA, or MCA.`,
+            skill:`
+                - Technical Skills: Strong understanding of the Software Development Life Cycle (SDLC), database querying (SQL basics), 
+                and operating systems (Windows, Linux, or macOS).
+                - Soft Skills: Excellent verbal and written communication, active problem-solving, 
+                and client relationship management.`
+        },
+
+        blankdept:{
+            orgdiv:'Arena Phone',
+            dept:'',
+            position:'',
+            jdescript:'Support Executive',
+            response:`
+                Core responsibilities for the role include:
+                - Customer Support: Act as the first point of contact for users, 
+                responding to queries via phone, email, or live chat.
+                - Troubleshooting & Diagnosis: Analyze software issues, determine the root cause, 
+                and guide customers through step-by-step solutions.
+                - Documentation: Log all reported issues, track their progress, 
+                and record solutions in a ticketing or CRM system.
+                -Client Training: Conduct training sessions to help users understand software features and functionality.
+                -Team Collaboration: Escalate unresolved, complex bugs to the core development or QA teams.
+                - Feedback Loop: Gather user feedback to help product managers and developers identify recurring issues.`,
+            exp:`
+                - Experience: 0 to 3+ years in software customer success, technical support, or quality assurance. `,
+                
+            qualif:`
+                - Education: Typically requires a degree in Computer Science, Information Technology, BCA, or MCA.`,
+            skill:`
+                - Technical Skills: Strong understanding of the Software Development Life Cycle (SDLC), database querying (SQL basics), 
+                and operating systems (Windows, Linux, or macOS).
+                - Soft Skills: Excellent verbal and written communication, active problem-solving, 
+                and client relationship management.`
+        },
+
+        blankposition:{
+            orgdiv:'Arena Phone',
+            dept:'Software Technical',
+            position:'',
+            jdescript:'Support Executive',
+            response:`
+                Core responsibilities for the role include:
+                - Customer Support: Act as the first point of contact for users, 
+                responding to queries via phone, email, or live chat.
+                - Troubleshooting & Diagnosis: Analyze software issues, determine the root cause, 
+                and guide customers through step-by-step solutions.
+                - Documentation: Log all reported issues, track their progress, 
+                and record solutions in a ticketing or CRM system.
+                -Client Training: Conduct training sessions to help users understand software features and functionality.
+                -Team Collaboration: Escalate unresolved, complex bugs to the core development or QA teams.
+                - Feedback Loop: Gather user feedback to help product managers and developers identify recurring issues.`,
+            exp:`
+                - Experience: 0 to 3+ years in software customer success, technical support, or quality assurance. `,
+                
+            qualif:`
+                - Education: Typically requires a degree in Computer Science, Information Technology, BCA, or MCA.`,
+            skill:`
+                - Technical Skills: Strong understanding of the Software Development Life Cycle (SDLC), database querying (SQL basics), 
+                and operating systems (Windows, Linux, or macOS).
+                - Soft Skills: Excellent verbal and written communication, active problem-solving, 
+                and client relationship management.`
+        },
+
+        blankjdescript:{
+            orgdiv:'Arena Phone',
+            dept:'Software Technical',
+            position:'Support Executive',
+            jdescript:'',
+            response:`
+                Core responsibilities for the role include:
+                - Customer Support: Act as the first point of contact for users, 
+                responding to queries via phone, email, or live chat.
+                - Troubleshooting & Diagnosis: Analyze software issues, determine the root cause, 
+                and guide customers through step-by-step solutions.
+                - Documentation: Log all reported issues, track their progress, 
+                and record solutions in a ticketing or CRM system.
+                -Client Training: Conduct training sessions to help users understand software features and functionality.
+                -Team Collaboration: Escalate unresolved, complex bugs to the core development or QA teams.
+                - Feedback Loop: Gather user feedback to help product managers and developers identify recurring issues.`,
+            exp:`
+                - Experience: 0 to 3+ years in software customer success, technical support, or quality assurance. `,
+                
+            qualif:`
+                - Education: Typically requires a degree in Computer Science, Information Technology, BCA, or MCA.`,
+            skill:`
+                - Technical Skills: Strong understanding of the Software Development Life Cycle (SDLC), database querying (SQL basics), 
+                and operating systems (Windows, Linux, or macOS).
+                - Soft Skills: Excellent verbal and written communication, active problem-solving, 
+                and client relationship management.`
+        },
+
+        blankresponse:{
+            orgdiv:'Arena Phone',
+            dept:'Software Technical',
+            position:'Support Executive',
+            jdescript:'Support Executive',
+            response:``,
+            exp:`
+                - Experience: 0 to 3+ years in software customer success, technical support, or quality assurance. `,
+                
+            qualif:`
+                - Education: Typically requires a degree in Computer Science, Information Technology, BCA, or MCA.`,
+            skill:`
+                - Technical Skills: Strong understanding of the Software Development Life Cycle (SDLC), database querying (SQL basics), 
+                and operating systems (Windows, Linux, or macOS).
+                - Soft Skills: Excellent verbal and written communication, active problem-solving, 
+                and client relationship management.`
+        },
+
+        blankexp:{
+            orgdiv:'Arena Phone',
+            dept:'Software Technical',
+            position:'Support Executive',
+            jdescript:'Support Executive',
+            response:`
+                Core responsibilities for the role include:
+                - Customer Support: Act as the first point of contact for users, 
+                responding to queries via phone, email, or live chat.
+                - Troubleshooting & Diagnosis: Analyze software issues, determine the root cause, 
+                and guide customers through step-by-step solutions.
+                - Documentation: Log all reported issues, track their progress, 
+                and record solutions in a ticketing or CRM system.
+                -Client Training: Conduct training sessions to help users understand software features and functionality.
+                -Team Collaboration: Escalate unresolved, complex bugs to the core development or QA teams.
+                - Feedback Loop: Gather user feedback to help product managers and developers identify recurring issues.`,
+            exp:` `,
+                
+            qualif:`
+                - Education: Typically requires a degree in Computer Science, Information Technology, BCA, or MCA.`,
+            skill:`
+                - Technical Skills: Strong understanding of the Software Development Life Cycle (SDLC), database querying (SQL basics), 
+                and operating systems (Windows, Linux, or macOS).
+                - Soft Skills: Excellent verbal and written communication, active problem-solving, 
+                and client relationship management.`
+        },
+
+         blankqualif:{
+            orgdiv:'Arena Phone',
+            dept:'Software Technical',
+            position:'Support Executive',
+            jdescript:'Support Executive',
+            response:`
+                Core responsibilities for the role include:
+                - Customer Support: Act as the first point of contact for users, 
+                responding to queries via phone, email, or live chat.
+                - Troubleshooting & Diagnosis: Analyze software issues, determine the root cause, 
+                and guide customers through step-by-step solutions.
+                - Documentation: Log all reported issues, track their progress, 
+                and record solutions in a ticketing or CRM system.
+                -Client Training: Conduct training sessions to help users understand software features and functionality.
+                -Team Collaboration: Escalate unresolved, complex bugs to the core development or QA teams.
+                - Feedback Loop: Gather user feedback to help product managers and developers identify recurring issues.`,
+            exp:` 
+                - Experience: 0 to 3+ years in software customer success, technical support, or quality assurance.`,
+                
+            qualif:``,
+            skill:`
+                - Technical Skills: Strong understanding of the Software Development Life Cycle (SDLC), database querying (SQL basics), 
+                and operating systems (Windows, Linux, or macOS).
+                - Soft Skills: Excellent verbal and written communication, active problem-solving, 
+                and client relationship management.`
+        },
+
+        blankskill:{
+            orgdiv:'Arena Phone',
+            dept:'Software Technical',
+            position:'Support Executive',
+            jdescript:'Support Executive',
+            response:`
+                Core responsibilities for the role include:
+                - Customer Support: Act as the first point of contact for users, 
+                responding to queries via phone, email, or live chat.
+                - Troubleshooting & Diagnosis: Analyze software issues, determine the root cause, 
+                and guide customers through step-by-step solutions.
+                - Documentation: Log all reported issues, track their progress, 
+                and record solutions in a ticketing or CRM system.
+                -Client Training: Conduct training sessions to help users understand software features and functionality.
+                -Team Collaboration: Escalate unresolved, complex bugs to the core development or QA teams.
+                - Feedback Loop: Gather user feedback to help product managers and developers identify recurring issues.`,
+            exp:` 
+                - Experience: 0 to 3+ years in software customer success, technical support, or quality assurance.`,
+                
+            qualif:`
+                - Education: Typically requires a degree in Computer Science, Information Technology, BCA, or MCA.`,
+            skill:``
+        },
+
+        validjobdesc:{
+            orgdiv:'Arena Phone',
+            dept:'Software Development',
+            position:'Software Engineer',
+            jdescript:'Software Engineer',
+            response:`
+                Core responsibilities for the role include:
+                - Customer Support: Act as the first point of contact for users, 
+                responding to queries via phone, email, or live chat.
+                - Troubleshooting & Diagnosis: Analyze software issues, determine the root cause, 
+                and guide customers through step-by-step solutions.
+                - Documentation: Log all reported issues, track their progress, 
+                and record solutions in a ticketing or CRM system.
+                -Client Training: Conduct training sessions to help users understand software features and functionality.
+                -Team Collaboration: Escalate unresolved, complex bugs to the core development or QA teams.
+                - Feedback Loop: Gather user feedback to help product managers and developers identify recurring issues.`,
+            exp:` 
+                - Experience: 0 to 3+ years in software customer success, technical support, or quality assurance.`,
+                
+            qualif:`
+                - Education: Typically requires a degree in Computer Science, Information Technology, BCA, or MCA.`,
+            skill:`
+                - Technical Skills: Strong understanding of the Software Development Life Cycle (SDLC), database querying (SQL basics), 
+                and operating systems (Windows, Linux, or macOS).
+                - Soft Skills: Excellent verbal and written communication, active problem-solving, 
+                and client relationship management.`
+        },
+
+        validjobdesc1:{
+            orgdiv:'Arena Phone',
+            dept:'Software Technical',
+            position:'Frontend Developer',
+            jdescript:'Frontend Developer',
+            response:`
+                Core responsibilities for the role include:
+                - Customer Support: Act as the first point of contact for users, 
+                responding to queries via phone, email, or live chat.
+                - Troubleshooting & Diagnosis: Analyze software issues, determine the root cause, 
+                and guide customers through step-by-step solutions.
+                - Documentation: Log all reported issues, track their progress, 
+                and record solutions in a ticketing or CRM system.
+                -Client Training: Conduct training sessions to help users understand software features and functionality.
+                -Team Collaboration: Escalate unresolved, complex bugs to the core development or QA teams.
+                - Feedback Loop: Gather user feedback to help product managers and developers identify recurring issues.`,
+            exp:` 
+                - Experience: 0 to 3+ years in software customer success, technical support, or quality assurance.`,
+                
+            qualif:`
+                - Education: Typically requires a degree in Computer Science, Information Technology, BCA, or MCA.`,
+            skill:`
+                - Technical Skills: Strong understanding of the Software Development Life Cycle (SDLC), database querying (SQL basics), 
+                and operating systems (Windows, Linux, or macOS).
+                - Soft Skills: Excellent verbal and written communication, active problem-solving, 
+                and client relationship management.`
+        }
+    }
+    
+    updatejobdescdata={
+            updatejdescript:{
+                orgdiv:'Arena Phone',
+                dept:'Software Technical',
+                position:'Frontend Developer',
+                jdescript:'Frontend Developer Officer',
+                response:`
+                    Core responsibilities for the role include:
+                    - Customer Support: Act as the first point of contact for users, 
+                    responding to queries via phone, email, or live chat.
+                    - Troubleshooting & Diagnosis: Analyze software issues, determine the root cause, 
+                    and guide customers through step-by-step solutions.
+                    - Documentation: Log all reported issues, track their progress, 
+                    and record solutions in a ticketing or CRM system.
+                    -Client Training: Conduct training sessions to help users understand software features and functionality.
+                    -Team Collaboration: Escalate unresolved, complex bugs to the core development or QA teams.
+                    - Feedback Loop: Gather user feedback to help product managers and developers identify recurring issues.`,
+                exp:` 
+                    - Experience: 0 to 3+ years in software customer success, technical support, or quality assurance.`,
+                    
+                qualif:`
+                    - Education: Typically requires a degree in Computer Science, Information Technology, BCA, or MCA.`,
+                skill:`
+                - Technical Skills: Strong understanding of the Software Development Life Cycle (SDLC), database querying (SQL basics), 
+                and operating systems (Windows, Linux, or macOS).
+                - Soft Skills: Excellent verbal and written communication, active problem-solving, 
+                and client relationship management.`
+            }
+        }
+
+        Deleterowdata={
+            DeleteRow:{
+                dltname:'Business Analyst'
+            }
+        }
+
+        viewrowdata={
+            viewRow:{
+                vrname:'Frontend Developer Officer'
+            }
+        }
+
+
+
+
 
     apiResponse = {
     // Vendor save success

@@ -1,0 +1,1 @@
+click delete button and redirected to job description list page.

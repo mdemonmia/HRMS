@@ -209,7 +209,7 @@ test.describe('test vendor agreement page',()=>{
     console.log('Data is updated successfully.');
   })
 
-  test.only('check delete vendor agreement @functional @regression',async({page})=>{
+  test('check delete vendor agreement @functional @regression',async({page})=>{
     const vndragrmt = new VendorAgreementPage(page);
     await vndragrmt.getvndrAgreementLink();
     await vndragrmt.getDeleteBtn(

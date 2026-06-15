@@ -9,6 +9,7 @@ export class LoginPage{
         this.logoutlink = page.locator("//div[@class='dropdown-menu dropdown-menu-end header-dropdown-menu show']//button[@class='dropdown-item text-danger'][normalize-space()='Logout']");
         this.menuLink = page.locator("//i[@class='fa fa-bars']");
         this.VendormgtLink = page.locator("//span[normalize-space()='Vendor Management']");
+        this.JDmenu = page.locator("//span[normalize-space()='Job Description Management']");
     }
 
     async goto(url){
@@ -38,6 +39,10 @@ export class LoginPage{
 
     async getvendorMgtlink(){
         await this.VendormgtLink.click();
+    }
+    
+    async getJDMenu(){
+        await this.JDmenu.click();
     }
 
 }
