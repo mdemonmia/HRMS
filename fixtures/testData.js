@@ -1244,40 +1244,68 @@ export class testData{
             }
         }
 
-
-
-
-
-    apiResponse = {
-    // Vendor save success
-        saveSuccess: {
-            status: 200,
-            body: { message: 'Data is saved successfully.' }
-        },
-
-        // Vendor save duplicate
-        saveDuplicate: {
-            status: 409,
-            body: { message: 'Duplicate name, please check entry name.' }
-        },
-
-        // Vendor update success
-        updateSuccess: {
-            status: 200,
-            body: { message: 'Data is updated successfully.' }
-        },
-
-        // Vendor delete success
-        deleteSuccess: {
-            status: 200,
-            body: { message: 'Data is deleted successfully.' }
-        },
-
-        // Server error
-        serverError: {
-            status: 500,
-            body: { message: 'Could not save changes. Please configure your entity type accordingly.' }
+        EditRJDdata={
+            editrowdata:{
+                rowName:'Executive -Accounts'
+            }
         }
-    }
+
+        revisedJDData={
+            blankUpdate:{
+                orgdiv:'0',
+                dept:'Accounts and Admin',
+                position:'Executive- Accounts',
+                jdescript:'Executive -Accounts',
+                response:`
+                    Core responsibilities for the role include:
+                    - Customer Support: Act as the first point of contact for users, 
+                    responding to queries via phone, email, or live chat.
+                    - Troubleshooting & Diagnosis: Analyze software issues, determine the root cause, 
+                    and guide customers through step-by-step solutions.
+                    - Documentation: Log all reported issues, track their progress, 
+                    and record solutions in a ticketing or CRM system.
+                    -Client Training: Conduct training sessions to help users understand software features and functionality.
+                    -Team Collaboration: Escalate unresolved, complex bugs to the core development or QA teams.
+                    - Feedback Loop: Gather user feedback to help product managers and developers identify recurring issues.`,
+                exp:` 
+                    - Experience: 0 to 3+ years in software customer success, technical support, or quality assurance.`,
+                    
+                qualif:`
+                    - Education: Typically requires a degree in Computer Science, Information Technology, BCA, or MCA.`,
+                skill:`
+                - Technical Skills: Strong understanding of the Software Development Life Cycle (SDLC), database querying (SQL basics), 
+                and operating systems (Windows, Linux, or macOS).
+                - Soft Skills: Excellent verbal and written communication, active problem-solving, 
+                and client relationship management.`
+            },
+
+            validUpdate:{
+                orgdiv:'Arena Phone',
+                dept:'Accounts and Admin',
+                position:'Executive- Accounts',
+                jdescript:'Executive -Accounts',
+                response:`
+                    Core responsibilities for the role include:
+                    - Customer Support: Act as the first point of contact for users, 
+                    responding to queries via phone, email, or live chat.
+                    - Troubleshooting & Diagnosis: Analyze software issues, determine the root cause, 
+                    and guide customers through step-by-step solutions.
+                    - Documentation: Log all reported issues, track their progress, 
+                    and record solutions in a ticketing or CRM system.
+                    -Client Training: Conduct training sessions to help users understand software features and functionality.
+                    -Team Collaboration: Escalate unresolved, complex bugs to the core development or QA teams.
+                    - Feedback Loop: Gather user feedback to help product managers and developers identify recurring issues.`,
+                exp:` 
+                    - Experience: 0 to 3+ years in software customer success, technical support, or quality assurance.`,
+                    
+                qualif:`
+                    - Education: Typically requires a degree in Computer Science, Information Technology, BCA, or MCA.`,
+                skill:`
+                - Technical Skills: Strong understanding of the Software Development Life Cycle (SDLC), database querying (SQL basics), 
+                and operating systems (Windows, Linux, or macOS).
+                - Soft Skills: Excellent verbal and written communication, active problem-solving, 
+                and client relationship management.`
+            }
+        }
    
 }
